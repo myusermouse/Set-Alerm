@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    user-select: none;
+    user-zoom: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+}
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 33px;
+    padding: 1px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2),
+                    0 1px 2px rgba(0,0,0,0.2);
+    font-weight: 500;
+    font-size: 1em;
+}
+/***********---- start *******-------------*/
+
+body{
+    background: #66D0CB;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .contant{
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.4),
+                0 0 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background: transparent;
+}
+.container .contant .clock-img{
+    width: 150px;
+}
+.contant  .running-time{
+    width: 100%;
+    text-align: center;
+    font-size: 2.3em;
+    color: #000;
+}
+.contant .set-alerm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contant .set-alerm  select{
+    width: 85px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.contant .set-btn{
+   width: 180px!important;
+   height: 37px!important;
+   background: #fff;
+   border-radius: 2px!important;
+   margin-bottom: 20px;
+   margin-top: 10px;
+}
+.set-btn.set-btn:hover{
+    filter: brightness(0.8);
+}

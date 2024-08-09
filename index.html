@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alarm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Project -->
+  
+  
+  <div class="container">
+      <div class="contant">
+          <img class="clock-img" src="/image/clock.png">
+          <h1 class="running-time">02 : 22 : 06 <span class="twelve-hour">PM</span></h1>
+          <div class="set-alerm">
+              <div class="hour">
+                  <select name="Hour" id="Hour">
+                      <option  value="Hour" selacted hidden>Hour</option>
+                      <option value="00">00</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                  </select>
+              </div>
+              <div class="minute">
+                  <select name="Minute" id="Minute">
+                      <option value="Minute" selacted hidden>Minute</option>
+                      <option value="00">00</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                  </select>
+              </div>
+              <div class="time-twelve">
+                  <select name="AM-PM" id="AM-PM">
+                      <option value="AM/PM" selected hidden>AM/PM</option>
+                      <option value="AM">AM</option>
+                      <option value="PM">PM</option>
+                  </select>
+              </div>
+          </div>
+          <button type="submit" class="set-btn" id="set-btn">Set Alerm</button>
+      </div>
+      
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
